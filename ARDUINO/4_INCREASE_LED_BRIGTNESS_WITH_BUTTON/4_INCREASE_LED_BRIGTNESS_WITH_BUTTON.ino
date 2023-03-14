@@ -35,6 +35,7 @@ bool debounce(int);
 int LED_PIN = 11;
 int BUTTON_PIN = 8;
 int brightness ;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
