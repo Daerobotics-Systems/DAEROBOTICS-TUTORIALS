@@ -1,5 +1,5 @@
 /*
- * Title: FADING LED 
+ * Title: BREATHING LED 
   --------------------------
   Remember, you can buy all the electronic accessories used in this
   project at our online store: https://daerobotics.com/shop/ 

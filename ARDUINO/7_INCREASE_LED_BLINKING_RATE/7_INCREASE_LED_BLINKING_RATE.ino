@@ -15,7 +15,7 @@
   In this project the rate of a blinking LED is increased using the tact push
   button. That is, when the button is pressed and released multiple times, 
   the LED blinks faster and faster till it reaches the maximum brigthness and then stays on without blinking.
-  The LED is connected to digital Pin 11 while the tact push button is connected to Pin 8 
+  The LED is connected to digital Pin 12 while the tact push button is connected to Pin 8 
   with resistor pulling it to ground.
   
 
@@ -30,7 +30,7 @@
 const int MIN_BLINK_RATE = 0, MAX_BLINK_RATE = 2000;
 bool button_press();
 bool debounce(int);
-int LED_PIN = 11;
+int LED_PIN = 12;
 int BUTTON_PIN = 8;
 int blink_rate , wait;
 unsigned long start_time;
